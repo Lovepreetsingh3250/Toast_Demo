@@ -14,17 +14,17 @@
         android:layout_margin="40dp">
 
         <TextView
-            android:id="@+id/tv_email"
+            android:id="@+id/tv_email_lib"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"/>
         <TextView
-            android:id="@+id/tv_pass"
+            android:id="@+id/tv_pass_lib"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"/>
         <Button
-            android:id="@+id/btnSubmit"
+            android:id="@+id/btnSubmit_lib"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Submit"/>

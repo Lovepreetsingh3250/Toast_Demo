@@ -16,9 +16,9 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-        tvEmail = findViewById(R.id.tv_email)
-        tvPass = findViewById(R.id.tv_pass)
-        btnSubmit = findViewById(R.id.btnSubmit)
+        //tvEmail = findViewById(R.id.tv_email_lib)
+        //tvPass = findViewById(R.id.tv_pass_lib)
+        btnSubmit = findViewById(R.id.btnSubmit_lib)
 
         btnSubmit.setOnClickListener{
             ToastMessage().showToast(applicationContext,"Submitted")
