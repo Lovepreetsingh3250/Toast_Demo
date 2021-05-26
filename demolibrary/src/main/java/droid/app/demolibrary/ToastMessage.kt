@@ -2,7 +2,12 @@ package droid.app.demolibrary
 
 import android.content.Context
 import android.net.ConnectivityManager
+import android.widget.RelativeLayout
 import android.widget.Toast
+import com.ajithvgiri.canvaslibrary.CanvasView
+
+
+
 
 
 class ToastMessage {
@@ -18,4 +23,15 @@ class ToastMessage {
                 .activeNetworkInfo
         return activeNetworkInfo != null && activeNetworkInfo.isConnected
     }
+
+    fun addCanvas(context:Context,parentView: RelativeLayout){
+        val canvasView = CanvasView(context)
+        parentView.addView(canvasView)
+    }
+
+    fun clearCanvas(context: Context){
+        val canvasView = CanvasView(context)
+        canvasView.clearCanvas()
+    }
+
 }
